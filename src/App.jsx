@@ -61,7 +61,7 @@ function App() {
       <section style={{ marginBottom: "50px" }}>
         <h3 style={{ fontSize: "32px", marginBottom: "20px" }}>Why Us</h3>
         <ul style={{ paddingLeft: "20px" }}>
-          <li>EU-based development team</li>
+          <li>TEST</li>
           <li>Fast and reliable delivery</li>
           <li>Cost-effective compared to local markets</li>
           <li>Experience with business-critical systems</li>
