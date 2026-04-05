@@ -1,6 +1,7 @@
 .navbar {
   width: 100%;
-  background: #0a0a0f;
+  height: 70px; /* 🔥 ΣΤΑΘΕΡΟ ΥΨΟΣ */
+  background: #05070d;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   position: sticky;
   top: 0;
@@ -8,40 +9,44 @@
 }
 
 .navbar-container {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
-  padding: 20px 32px;
+  padding: 0 32px; /* ❌ όχι vertical padding */
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .navbar-logo {
-  color: #ffffff;
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: 0.4px;
 }
-
 .navbar-logo img {
-  height: px;
-  width: 50px;
- 
+    height: 251px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+    position: relative;
+    top: 6px;
+    left: -77px;
 }
 
 .navbar-links {
   display: flex;
-  gap: 28px;
+  align-items: center;
+  gap: 32px;
 }
 
 .navbar-links a {
-  color: #b8bfd3;
+  color: #ffffff;
   text-decoration: none;
   font-size: 16px;
-  transition: color 0.25s ease;
+  font-weight: 500;
+  transition: opacity 0.25s ease;
 }
 
 .navbar-links a:hover {
-  color: #ffffff;
+  opacity: 0.75;
 }

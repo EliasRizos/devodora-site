@@ -6,9 +6,9 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-      <Link to="/" className="navbar-logo">
-        <img src={logo} alt="Devodora Systems" />
-      </Link>
+        <Link to="/" className="navbar-logo">
+          <img src={logo} alt="Devodora Systems" />
+        </Link>
 
         <div className="navbar-links">
           <Link to="/">Home</Link>
