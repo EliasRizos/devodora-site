@@ -24,6 +24,12 @@
   letter-spacing: 0.4px;
 }
 
+.navbar-logo img {
+  height: px;
+  width: 50px;
+ 
+}
+
 .navbar-links {
   display: flex;
   gap: 28px;
